@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="assets/encriptado.png" alt= "logo encriptador">
+    </header>
+    <main class="titulo">
+        <section class="presentacion__contenido">
+        <h1 class="presentacion__contenido__titulo">
+            Encriptador de texto</h1>
+        <p>
+            <textarea class="caja__texto__uno" id="input-text" placeholder="Ingrese el texto aquí..."></textarea>
+        </p>
+        <div class="presentacion__enlaces">
+            <a class="presentacion__enlaces__link">
+                <button class= "botones" id="encrypt-btn">Encriptar</button></a>
+            <a class="presentacion__enlaces__link">
+                <button class="botones"id="decrypt-btn">Desencriptar</button></a>
+        </div>
+    </section>
+         <section class="presentacion__contenido">
+            <h1 class="presentacion__contenido__titulo">
+            <br></h1>
+        <p>
+            <textarea class="caja__texto__dos" id="output-text" placeholder="Ningún mensaje ha sido detectado" readonly></textarea>
+        </p>
+        <div class="presentacion__enlaces">
+            <a class="presentacion__enlaces__link">
+                <button class= "botones__copiar" id="copy-btn">Copiar</button></a>
+        </div>
+        </section>
+    </main>
+    <footer class="footer"> 
+        <p>Desarrollado por Ana Gutiérrez</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
